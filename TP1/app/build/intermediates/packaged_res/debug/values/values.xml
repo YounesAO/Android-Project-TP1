@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="complaint_types">
+        <item>Problème de service</item>
+        <item>Facture incorrecte</item>
+        <item>Retard de livraison</item>
+        <item>Qualité du produit</item>
+        <item>Service client insatisfaisant</item>
+    </string-array>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="backgroundColorDark">#121212</color>
+    <color name="buttonColor">#4CAF50</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="colorAccent">#6D4C41</color>
+    <color name="colorPrimary">#FF6F61</color>
+    <color name="colorPrimaryDark">#D44F3A</color>
+    <color name="headerTextColor">#FF5722</color>
+    <color name="headerTextColorDark">#FFFFFF</color>
+    <color name="inputTextColor">#212121</color>
+    <color name="inputTextColorDark">#FFFFFF</color>
+    <color name="instructionsTextColor">#757575</color>
+    <color name="instructionsTextColorDark">#DDDDDD</color>
+    <color name="labelColor">#FF9F81</color>
+    <color name="labelColorDark">#BBBBBB</color>
+    <color name="resetButtonColor">#F44336</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="body_text_size">16sp</dimen>
+    <dimen name="button_container_padding_top">16dp</dimen>
+    <dimen name="button_spacing">8dp</dimen>
+    <dimen name="field_padding_top">12dp</dimen>
+    <dimen name="header_padding_bottom">18dp</dimen>
+    <dimen name="header_padding_top">34dp</dimen>
+    <dimen name="header_text_size">46sp</dimen>
+    <dimen name="input_padding">12dp</dimen>
+    <dimen name="instructions_padding_bottom">12dp</dimen>
+    <dimen name="label_padding_bottom">4dp</dimen>
+    <dimen name="label_text_size">24sp</dimen>
+    <dimen name="spinner_padding">8dp</dimen>
+    <string name="app_name">TP1</string>
+    <string name="complaint_type_label">Type de Réclamation:</string>
+    <string name="email_hint">Entrez votre email</string>
+    <string name="email_label">Email</string>
+    <string name="header_text">Réclamation</string>
+    <string name="instructions_text">Veuillez remplir le formulaire ci-dessous pour soumettre votre réclamation.</string>
+    <string name="message_hint">Décrivez votre réclamation</string>
+    <string name="message_label">Message</string>
+    <string name="message_succes">Réclamation envoyée par success</string>
+    <string name="name_hint">Entrez votre nom</string>
+    <string name="name_label">Nom</string>
+    <string name="reset_button_text">Réinitialiser</string>
+    <string name="retournebtn">Retourner</string>
+    <string name="send_button_text">Envoyer</string>
+    <string name="type_label">Type de Réclamation</string>
+    <style name="Base.Theme.TP1" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/buttonTextColor</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/buttonTextColor</item>
+
+        <item name="colorOnBackground">@color/inputTextColor</item>
+
+        <item name="colorSurface">@color/backgroundColor</item>
+        <item name="colorOnSurface">@color/inputTextColor</item>
+
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+        
+        <item name="android:textColor">@color/inputTextColor</item>
+        <item name="android:textColorPrimary">@color/inputTextColor</item>
+        <item name="android:textColorSecondary">@color/instructionsTextColor</item>
+
+        
+        <item name="buttonStyle">@style/Widget.Material3.Button</item>
+    </style>
+    <style name="Theme.TP1" parent="Base.Theme.TP1">
+        
+    </style>
+</resources>
